@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
-    public GameObject PausePanel, Inventory, tapEfect;
+    public GameObject PausePanel;
 
     public void PauseButtonPressed()
     {

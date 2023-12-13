@@ -15,6 +15,8 @@ public class CarAttack : MonoBehaviour
     private void Update()
     {
         DetectCollision();
+        if (_health <= 0)
+            ScoreControll.score += 1;
     }
     private void DetectCollision()
     {

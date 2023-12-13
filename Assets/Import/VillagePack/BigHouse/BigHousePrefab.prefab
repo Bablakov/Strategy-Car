@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: -3114599514759581278}
   m_Layer: 0
   m_Name: BigHousePrefab
-  m_TagString: Untagged
+  m_TagString: Industry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 7085460630238156685, guid: 6d4589dc9441a894fa3062b4c6855966, type: 3}
+  build: {fileID: 103614}
   time: 5
 --- !u!1 &107994
 GameObject:
