@@ -15,11 +15,10 @@ public class CarAttack : MonoBehaviour
     private void Update()
     {
         DetectCollision();
-        if (_health <= 0)
-            ScoreControll.score += 1;
     }
     private void DetectCollision()
     {
+
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, radius);
 
         if(hitColliders.Length == 0 && _coroutine != null)

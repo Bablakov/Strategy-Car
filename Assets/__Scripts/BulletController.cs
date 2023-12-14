@@ -32,7 +32,11 @@ public class BulletController : MonoBehaviour
                 helthBar.localScale.z);
 
             if (attack._health <= 0)
+            {
+                if (other.CompareTag("Enemy"))
+                    ScoreControll.score += 1;
                 Destroy(other.gameObject);
+            }
         }
     }
 }
