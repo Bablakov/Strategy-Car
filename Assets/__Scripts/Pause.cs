@@ -22,6 +22,7 @@ public class Pause : MonoBehaviour
     public void RestartButtonPressed()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        ScoreControll.score = 0;
         Time.timeScale = 1f;
     }
 
